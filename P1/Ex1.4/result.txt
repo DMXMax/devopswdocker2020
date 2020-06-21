@@ -1,0 +1,34 @@
+Script started on 2020-06-21 17:19:13+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="36"]
+]0;glen_clarkson_gmail_com@minerva: ~/projects/Docker1;32mglen_clarkson_gmail_com@minervam:;34m~/projects/Docker1m$ docker exec -it exercise1.3 bashrun -d --rm --name exercise1.3 devopsdockeruh/exec_bash_exerciseAdevopsdockeruh/exec_bash_exercisPeA]0;glen_clarkson_gmail_com@minerva: ~/projects/Docker1;32mglen_clarkson_gmail_com@minervam:;34m~/projects/Docker1m$ devopsdockeruh/exec_bash_exerciseA]0;glen_clarkson_gmail_com@minerva: ~/projects/Docker1;32mglen_clarkson_gmail_com@minervam:;34m~/projects/Docker1m$ 
+
+c7522c9af00941e4ba4cc9e341b1664b66f5ad61ef63d5df9a261b9d1ed99e48
+]0;glen_clarkson_gmail_com@minerva: ~/projects/Docker1;32mglen_clarkson_gmail_com@minervam:;34m~/projects/Docker1m$ docker run -d --rm --name exercise1.4 devopsdockeruh/exec_bash_exerciseA]0;glen_clarkson_gmail_com@minerva: ~/projects/Docker1;32mglen_clarkson_gmail_com@minervam:;34m~/projects/Docker1m$ Pexec -it exercise1.3 bash
+KAP bash4 bash
+root@c7522c9af009:/usr/app# Kroot@c7522c9af009:/usr/app# tail -f logs.txt
+Sun, 21 Jun 2020 17:19:22 GMT
+Sun, 21 Jun 2020 17:19:25 GMT
+Sun, 21 Jun 2020 17:19:28 GMT
+Sun, 21 Jun 2020 17:19:31 GMT
+Secret message is:
+"Docker is easy"
+Sun, 21 Jun 2020 17:19:37 GMT
+Sun, 21 Jun 2020 17:19:40 GMT
+Sun, 21 Jun 2020 17:19:43 GMT
+Sun, 21 Jun 2020 17:19:46 GMT
+Secret message is:
+"Docker is easy"
+Sun, 21 Jun 2020 17:19:52 GMT
+Sun, 21 Jun 2020 17:19:55 GMT
+Sun, 21 Jun 2020 17:19:58 GMT
+Sun, 21 Jun 2020 17:20:01 GMT
+Secret message is:
+"Docker is easy"
+qSun, 21 Jun 2020 17:20:07 GMT
+
+Sun, 21 Jun 2020 17:20:10 GMT
+^C
+root@c7522c9af009:/usr/app# exit
+exit
+]0;glen_clarkson_gmail_com@minerva: ~/projects/Docker1;32mglen_clarkson_gmail_com@minervam:;34m~/projects/Docker1m$ exit
+
+Script done on 2020-06-21 17:20:20+00:00 [COMMAND_EXIT_CODE="130"]
