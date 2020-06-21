@@ -1,10 +1,10 @@
 Script started on 2020-06-21 17:19:13+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="36"]
-glen_clarkson_gmail_com@minerva: ~/projects/Docker1mglen_clarkson_gmail_com@minervam:m~/projects/Docker1m$ docker exec -it exercise1.3 bashrun -d --rm --name exercise1.3 devopsdockeruh/exec_bash_exercise devopsdockeruh/exec_bash_exerciseglen_clarkson_gmail_com@minerva: ~/projects/Docker1mglen_clarkson_gmail_com@minervam:m~/projects/Docker1m$  devopsdockeruh/exec_bash_exerciseglen_clarkson_gmail_com@minerva: ~/projects/Docker1mglen_clarkson_gmail_com@minervam:m~/projects/Docker1m$ 
+ ~/projects/Docker1 docker exec -it exercise1.3 bashrun -d --rm --name exercise1.3 devopsdockeruh/exec_bash_exercise devopsdockeruh/exec_bash_exercis ~/projects/Docker1  devopsdockeruh/exec_bash_exercise ~/projects/Docker1 
 
 c7522c9af00941e4ba4cc9e341b1664b66f5ad61ef63d5df9a261b9d1ed99e48
-glen_clarkson_gmail_com@minerva: ~/projects/Docker1mglen_clarkson_gmail_com@minervam:m~/projects/Docker1m$ docker run -d --rm --name exercise1.4 devopsdockeruh/exec_bash_exerciseglen_clarkson_gmail_com@minerva: ~/projects/Docker1mglen_clarkson_gmail_com@minervam:m~/projects/Docker1m$ exec -it exercise1.3 bash
- bash4 bash
-root@c7522c9af009:/usr/app# root@c7522c9af009:/usr/app# tail -f logs.txt
+ ~/projects/Docker1 docker run -d --rm --name exercise1.4 devopsdockeruh/exec_bash_exercise ~/projects/Docker1  -it exercise1.3 bash
+ bash4 bash
+root@c7522c9af009:/usr/app#  tail -f logs.txt
 Sun, 21 Jun 2020 17:19:22 GMT
 Sun, 21 Jun 2020 17:19:25 GMT
 Sun, 21 Jun 2020 17:19:28 GMT
@@ -29,6 +29,6 @@ Sun, 21 Jun 2020 17:20:10 GMT
 ^C
 root@c7522c9af009:/usr/app# exit
 exit
-glen_clarkson_gmail_com@minerva: ~/projects/Docker1mglen_clarkson_gmail_com@minervam:m~/projects/Docker1m$ exit
+ ~/projects/Docker1 exit
 
 Script done on 2020-06-21 17:20:20+00:00 [COMMAND_EXIT_CODE="130"]
