@@ -1,0 +1,15 @@
+Script started on 2020-06-22 21:55:16+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="36"]
+]0;glen_clarkson_gmail_com@minerva: ~/projects/devopswdocker2020/P1/Ex1.8[01;32mglen_clarkson_gmail_com@minerva[00m:[01;34m~/projects/devopswdocker2020/P1/Ex1.8[00m$ touch mylog.txt
+]0;glen_clarkson_gmail_com@minerva: ~/projects/devopswdocker2020/P1/Ex1.8[01;32mglen_clarkson_gmail_com@minerva[00m:[01;34m~/projects/devopswdocker2020/P1/Ex1.8[00m$ touch mylog.txtexit[Kdocker run -v $(pwd)/mylog.txt:/usr/app/logs.txt devopsdockeruh/first_volume_exercise
+Wrote to file /usr/app/logs.txt
+Wrote to file /usr/app/logs.txt
+Wrote to file /usr/app/logs.txt
+^CClosing file
+]0;glen_clarkson_gmail_com@minerva: ~/projects/devopswdocker2020/P1/Ex1.8[01;32mglen_clarkson_gmail_com@minerva[00m:[01;34m~/projects/devopswdocker2020/P1/Ex1.8[00m$ cat mylog.txt
+Mon, 22 Jun 2020 21:55:25 GMT
+Mon, 22 Jun 2020 21:55:28 GMT
+Mon, 22 Jun 2020 21:55:31 GMT
+]0;glen_clarkson_gmail_com@minerva: ~/projects/devopswdocker2020/P1/Ex1.8[01;32mglen_clarkson_gmail_com@minerva[00m:[01;34m~/projects/devopswdocker2020/P1/Ex1.8[00m$ exit
+exit
+
+Script done on 2020-06-22 21:55:40+00:00 [COMMAND_EXIT_CODE="0"]
